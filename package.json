@@ -1,0 +1,11 @@
+{
+  "name": "svelte-scroller",
+  "version": "1.0.0",
+  "description": "A simple svelte scroll observer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hideko",
+  "license": "MIT"
+}
