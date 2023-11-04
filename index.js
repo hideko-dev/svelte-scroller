@@ -12,7 +12,7 @@ export function detectBetween({ start, end }) {
     };
     window.addEventListener("scroll", handleScroll);
     handleScroll();
-    return get(status);
+    return { subscribe: status.subscribe };
 }
 
 export function detectSingle({ type, position }) {
@@ -33,5 +33,5 @@ export function detectSingle({ type, position }) {
     };
     window.addEventListener("scroll", handleScroll);
     handleScroll();
-    return get(status);
+    return { subscribe: status.subscribe };
 }

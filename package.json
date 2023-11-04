@@ -1,6 +1,6 @@
 {
   "name": "svelte-scroller",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A simple svelte scroll observer.",
   "main": "index.js",
   "scripts": {
